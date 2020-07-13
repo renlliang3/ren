@@ -58,12 +58,13 @@ export LD_LIBRARY_PATH="/home/astronomy/HDF5-parallel/lib":$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH="/home/astronomy/openmpi/lib":$LD_LIBRARY_PATH
 
 
+https://smileipic.github.io/Smilei/installation.html
 
-1. Install these packages
+1.Install these packages
 
 sudo apt-get install python-h5py ipython python-pint python-sphinx python-matplotlib python-dev  python-numpy
 
-2. Since the system openmpi is not compiled with --enable-mpi-thread-multiple, a manual installation is required. Add the following lines to your ~/.bashrc or ~/.bash_profile file (You may choose any ${INSTALL_DIR})
+2.Since the system openmpi is not compiled with --enable-mpi-thread-multiple, a manual installation is required. Add the following lines to your ~/.bashrc or ~/.bash_profile file (You may choose any ${INSTALL_DIR})
 
 export INSTALL_DIR=/usr/local
 export PATH=${INSTALL_DIR}/openmpi/bin:${PATH}
